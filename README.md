@@ -1,2 +1,1 @@
 # leaningIntoGroupTheory
-A research project

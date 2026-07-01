@@ -1,0 +1,30 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["2701c97d5fa28f40.olean"],
+  "i": "3645d71d8d88c144.ilean",
+  "c": "6341a3289f19945d.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/home/max/projects/leaningIntoGroupTheory/.lake/build/lib/lean /nix/store/s3p0svmik34pmkmbjid405q2gc3sn2xn-lean4-4.29.1/bin/lean /home/max/projects/leaningIntoGroupTheory/LeaningIntoGroupTheory/Basic.lean -o /home/max/projects/leaningIntoGroupTheory/.lake/build/lib/lean/LeaningIntoGroupTheory/Basic.olean -i /home/max/projects/leaningIntoGroupTheory/.lake/build/lib/lean/LeaningIntoGroupTheory/Basic.ilean -c /home/max/projects/leaningIntoGroupTheory/.lake/build/ir/LeaningIntoGroupTheory/Basic.c --setup /home/max/projects/leaningIntoGroupTheory/.lake/build/ir/LeaningIntoGroupTheory/Basic.setup.json --json",
+   "level": "trace"}],
+ "inputs":
+ [["LeaningIntoGroupTheory.Basic:deps",
+   [["deps",
+     [["leaningIntoGroupTheory/LeaningIntoGroupTheory:extraDep",
+       [["@leaningIntoGroupTheory:extraDep", "00000000000006bb"]]],
+      ["imports", "00000000000006bb"]]],
+    ["libs",
+     [["import dynlibs", "00000000000006bb"],
+      ["package external libraries", "00000000000006bb"],
+      ["module dynlibs", "00000000000006bb"],
+      ["module plugins", "00000000000006bb"]]]]],
+  ["Lean 4.29.1, commit v4.29.1", "3d61e039494cc2df"],
+  ["/home/max/projects/leaningIntoGroupTheory/LeaningIntoGroupTheory/Basic.lean",
+   "fb8d37be36883ee0"],
+  ["options", "00000000000006bb"],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: LeaningIntoGroupTheory.Basic", "d5b0102e87b09425"],
+  ["Package.id?: (some leaningIntoGroupTheory)", "7c49bb65f39a7553"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "f247e536bd41449a"}

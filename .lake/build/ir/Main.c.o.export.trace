@@ -1,0 +1,16 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs": "8d963cb9236b79ae.o",
+ "log":
+ [{"message":
+   ".> gcc -c -o /home/max/projects/leaningIntoGroupTheory/.lake/build/ir/Main.c.o.export /home/max/projects/leaningIntoGroupTheory/.lake/build/ir/Main.c -I /nix/store/s3p0svmik34pmkmbjid405q2gc3sn2xn-lean4-4.29.1/include -fstack-clash-protection -fdata-sections -ffunction-sections -fPIC -fvisibility=hidden -Wno-unused-command-line-argument -O3 -DNDEBUG -DLEAN_EXPORTING",
+   "level": "trace"}],
+ "inputs":
+ [["Main:c",
+   [["/home/max/projects/leaningIntoGroupTheory/.lake/build/ir/Main.c",
+     "c3213326c5987826"],
+    ["Lean 4.29.1, commit v4.29.1", "3d61e039494cc2df"]]],
+  ["Lean 4.29.1, commit v4.29.1", "3d61e039494cc2df"],
+  ["traceArgs: #[-O3, -DNDEBUG, -DLEAN_EXPORTING]", "c1efb66122fb2b9a"],
+  ["", "21c42906adea99f5"]],
+ "depHash": "89290b7dc06f230a"}

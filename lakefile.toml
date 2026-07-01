@@ -1,0 +1,10 @@
+name = "leaningIntoGroupTheory"
+version = "0.1.0"
+defaultTargets = ["leaningintogrouptheory"]
+
+[[lean_lib]]
+name = "LeaningIntoGroupTheory"
+
+[[lean_exe]]
+name = "leaningintogrouptheory"
+root = "Main"

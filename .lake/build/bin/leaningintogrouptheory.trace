@@ -1,0 +1,20 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs": "d9c1791fbffa7dbd",
+ "log":
+ [{"message":
+   ".> gcc -o /home/max/projects/leaningIntoGroupTheory/.lake/build/bin/leaningintogrouptheory /home/max/projects/leaningIntoGroupTheory/.lake/build/ir/Main.c.o.export /home/max/projects/leaningIntoGroupTheory/.lake/build/ir/LeaningIntoGroupTheory/Basic.c.o.export /home/max/projects/leaningIntoGroupTheory/.lake/build/ir/LeaningIntoGroupTheory.c.o.export -L /nix/store/s3p0svmik34pmkmbjid405q2gc3sn2xn-lean4-4.29.1/lib/lean -Wl,--start-group -lleancpp -lLean -Wl,--end-group -lStd -Wl,--start-group -lInit -lleanrt -Wl,--end-group -lstdc++ -lLake /nix/store/1agm3iac17cykdmabxck60vwk5sjk4wc-gmp-with-cxx-6.3.0/lib/libgmp.so -L/nix/store/yiw5hnsdql8zs25invyr8mgi1asy4lwy-libuv-1.52.1/lib -luv -Wl,--gc-sections -lm -ldl -pthread",
+   "level": "trace"}],
+ "inputs":
+ [["linkObjs",
+   [["/home/max/projects/leaningIntoGroupTheory/.lake/build/ir/Main.c.o.export",
+     "8d963cb9236b79ae"],
+    ["/home/max/projects/leaningIntoGroupTheory/.lake/build/ir/LeaningIntoGroupTheory/Basic.c.o.export",
+     "6c709ea42f714681"],
+    ["/home/max/projects/leaningIntoGroupTheory/.lake/build/ir/LeaningIntoGroupTheory.c.o.export",
+     "a8fb22a9a4f2e2f3"]]],
+  ["linkLibs", "00000000000006bb"],
+  ["Lean 4.29.1, commit v4.29.1", "3d61e039494cc2df"],
+  ["traceArgs: #[]", "00000000000006bb"],
+  ["", "21c42906adea99f5"]],
+ "depHash": "59bf1864f2562970"}

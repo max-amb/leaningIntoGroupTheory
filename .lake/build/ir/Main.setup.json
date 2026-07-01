@@ -1,0 +1,11 @@
+{"plugins": [],
+ "package": "leaningIntoGroupTheory",
+ "options": {},
+ "name": "Main",
+ "isModule": false,
+ "importArts":
+ {"LeaningIntoGroupTheory.Basic":
+  ["/home/max/projects/leaningIntoGroupTheory/.lake/build/lib/lean/LeaningIntoGroupTheory/Basic.olean"],
+  "LeaningIntoGroupTheory":
+  ["/home/max/projects/leaningIntoGroupTheory/.lake/build/lib/lean/LeaningIntoGroupTheory.olean"]},
+ "dynlibs": []}
